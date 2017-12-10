@@ -1,0 +1,36 @@
+// Psuedo Code
+
+Part 1: Make Reset Button Function (DONE)
+
+
+Part 2: Make animation for letters and the pictures (DONE)
+
+Part 3: Make all the letters shown in the div (DONE)
+
+Part 4: Change ,main functionality from Jquery to Javascript
+
+Part 5: Clean up the style of the app
+
+
+
+Part 2: Animation
+// Make the letters in the blanks animate by opacity (1) DONE
+// Make the final image grow from 0px to original size and stop the opacity Animation(2) (X)
+// Make the letter display animate by opacity(3)  DONE
+// Make the stars have better animation(4) (X)
+
+Part 4: javascript
+// Make all the Jquery functions that give text,classes and attributes into Javascript
+// Turn all functions into variables
+// Make all the append functions into Javascript
+// Make all other functions that are not animation or styling from Jquery to javascript
+
+Part 5: style
+// Make the letter div on the other side of the div
+// Make the borders of the lives none
+// Make the background and the puzzle div to match well with eachother
+// Make the Title bar more appealing
+// Make the blanks div more appealing
+// Use different fonts
+// Make a input more appealing
+// Make the landing page more appealing;

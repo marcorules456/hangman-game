@@ -1,0 +1,85 @@
+@keyframes mymove {
+    0% {opacity: 1;}
+    50% {opacity: 0;}
+      100% {opacity: 1;}
+}
+@keyframes letters {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+
+}
+@keyframes answers {
+    0% {width: 0;}
+    100% {width: +=15px;}
+
+}
+@keyframes magic {
+    0% {width: 0px;,height:0px;}
+    100% {width: 70%;height:250px}
+
+}
+.finale {
+  animation:magic 1s 1 ease-in-out !important;
+  margin-left:15%;position:relative;bottom:10px;
+}
+.answers {
+  animation: letters 1 .5s ease-in;
+}
+.letters {
+  animation: letters 1s ease-in-out 1;
+}
+.reset{
+  position:relative;
+}
+.life{
+  width:0%;
+  height:0%;
+  float:left;
+  margin-left:14%;
+}
+.lives{
+  border:2px solid black;width:50%;height:60%;float:right;margin-right:30%;border-radius:5px;
+}
+.guessTitle{
+  text-align:center;
+}
+.trick{
+  color:#e6e6e6;margin-left:5%;
+}
+.guessed{
+  border:2px solid black;width:50%;height:60%;float:right;margin-right:30%;border-radius:5px;
+}
+body{
+  background:url('../images/blues.jpg');color:#e6e6e6;
+}
+.des{
+  text-align:center;
+}
+.submit{
+  height:40px;positon:relative;opacity:0;
+}
+.puzzle{
+  margin-left:9%;
+}
+.leftTitle{
+  text-align:center;color:#e6e6e6;
+}
+.title{
+  background:#6F65C1;border-radius:10px";
+}
+#answer{
+opacity:0;  width:50%;margin-left:25%;text-align:center;background:black;color:#e6e6e6;height:40px;border-radius:5px;border:2px solid black
+}
+.letter{
+  opacity:0;
+}
+.hats{
+  width:70%;height:250px;animation: mymove 7s infinite;
+  margin-left:15%;position:relative;bottom:10px;
+}
+.letter{
+  float:left;margin-left:3%;
+}
+.magic{
+  color:#e6e6e6;background:url('../images/portal3.jpg');padding-bottom:-100px;
+}
